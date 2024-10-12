@@ -157,14 +157,14 @@ async function startnigg(phone) {
           await delay(10000)
           let data1 = fs.createReadStream(`${sessionFolder}/creds.json`);
           const output = await upload(data1, createRandomId() + '.json');
-          let sessi = output.includes('https://mega.nz/file/') ? "GuruAi~" + output.split('https://mega.nz/file/')[1] : 'Error Uploading to Mega';
+          let sessi = output.includes('https://mega.nz/file/') ? "ROMEK-XD&" + output.split('https://mega.nz/file/')[1] : 'Error Uploading to Mega';
           await delay(2000)
           let guru = await negga.sendMessage(negga.user.id, { text: sessi })
           await delay(2000)
           await negga.sendMessage(
             negga.user.id,
             {
-              text: 'Hello there! 👋 \n\nDo not share your session id with anyone.\n\nPut the above in SESSION_ID var\n\nThanks for using GURU-BOT\n\n join support group:- https://chat.whatsapp.com/JY4R2D22pbLIKBMQWyBaLg \n',
+              text: 'Hello there! 👋🏻 \n\nDo not 🚫share your session id with anyone.\n\nPut the above in SESSION_ID var\n\nThanks for using ROMEK-XD \n',
             },
             { quoted: guru }
           )
